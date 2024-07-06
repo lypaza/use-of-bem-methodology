@@ -1,0 +1,22 @@
+
+import * as React from 'react';
+import { hot } from "react-hot-loader/root";
+
+interface Props {
+   name:
+    string
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <h1>
+          React bem project
+        </h1>
+      </>
+    );
+  }
+}
+
+export default hot(App);
